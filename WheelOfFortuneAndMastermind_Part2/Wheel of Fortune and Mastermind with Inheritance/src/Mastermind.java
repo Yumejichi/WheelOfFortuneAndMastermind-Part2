@@ -112,7 +112,6 @@ public class Mastermind extends GuessingGame{
             record.setScore(chance - miss);
 
         }
-        reset();
         return record;
     }
 
